@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5f2b54d-b62f-4921-906a-ae2fa8afd7e0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dpLiwei-common/target/" />
+    <ignored path="$PROJECT_DIR$/dpLiwei-web/target/" />
+    <ignored path="$PROJECT_DIR$/dpLiweiweb/target/" />
+    <ignored path="$PROJECT_DIR$/dp-Modules/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dpLiwei$AESUtil.ic" NAME="AESUtil Coverage Results" MODIFIED="1545195924653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.liwei.common.cm.utils.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="81" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1744302257">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="39" />
+          <entry key="dtd" value="1" />
+          <entry key="html" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="413" />
+          <entry key="js" value="2" />
+          <entry key="properties" value="21" />
+          <entry key="vm" value="13" />
+          <entry key="xml" value="188" />
+          <entry key="xsd" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="39" />
+          <entry key="DTD" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="413" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Properties" value="21" />
+          <entry key="VTL" value="13" />
+          <entry key="XML" value="190" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1561" />
+          <entry key="properties" value="44" />
+          <entry key="txt" value="1" />
+          <entry key="vm" value="14" />
+          <entry key="xml" value="720" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1561" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="44" />
+          <entry key="SQL" value="29" />
+          <entry key="VTL" value="14" />
+          <entry key="XML" value="691" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/SysUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/impl/SysUserManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SysUserManager</find>
+      <find>shiroFilter</find>
+      <find>quartzJobService</find>
+      <find>listForPage</find>
+      <find>&quot;sysAreaManager&quot;</find>
+      <find>sysAreaManager</find>
+      <find>SysAreaManager</find>
+      <find>/sys/login</find>
+      <find>SysLoginController</find>
+      <find>kaptcha</find>
+      <find>login</find>
+      <find>src/main/resource</find>
+      <find>sqlSessionFactory</find>
+      <find>getByUserName</find>
+      <find>serviceMethods</find>
+      <find>syslo</find>
+      <find>templ</find>
+      <find>sysUserManager</find>
+      <find>dp-se</find>
+      <find>未知异常，请联系管理员</find>
+      <find>spring/</find>
+      <find>BaseMapper</find>
+      <find>SysLogMapper</find>
+      <find>/sys/menu</find>
+      <find>mybatis-</find>
+      <find>ehcache</find>
+      <find>mybatis</find>
+      <find>sys/user/s</find>
+      <find>/list.html</find>
+      <find>list.html</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/quartz/utils/ScheduleUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/aspect/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysUserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysRoleMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/conf/log4j.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/sit/classes/log4j.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/pre/classes/log4j.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/Manager.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/ManagerImpl.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/Service.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/ServiceImpl.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/Controller.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/common/template/Mapper.java.vm" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/target/dp-security/WEB-INF/classes/spring/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/spring/applicationContext-shiro.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/quartz/dao/mapper/QuartzJobLogMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/quartz/dao/mapper/QuartzJobMapper.xml" />
+        <option value="$PROJECT_DIR$/dp-Modules/pom.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/security/UserRealm.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/quartz/controller/QuartzJobController.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/spring/applicationContext-jdbc.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/manager/impl/SysAreaManagerImpl.java" />
+        <option value="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/controller/SysAreaController.java" />
+        <option value="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/controller/SysMacroController.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/springMVC-servlet.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/manager/impl/SysLogManagerImpl.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/dao/mapper/SysLogMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/SysMenuMapper.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/dao/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/entity/SysMenuEntity.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/sit/application-env.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/pre/application-env.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/prd/application-env.properties" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/plugins/PaginationStatementHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-web/src/main/resources/applicationContext-jdbc.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/impl/SysUserManagerImpl.java" />
+        <option value="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysUserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dpLiwei" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dpLiwei" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="99" />
+    <option name="y" value="23" />
+    <option name="width" value="1732" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dp-Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liwei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liwei" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="liwei" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpLiwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpLiwei" type="462c0819:PsiDirectoryNode" />
+              <item name="dpLiwei-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545287994314" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/area/dao/mapper" />
+      <recent name="$PROJECT_DIR$/dp-Modules/src/main/resources/com.liwei.dao.mapper" />
+      <recent name="$PROJECT_DIR$/dpLiwei-common/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/controller" />
+      <recent name="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liwei.common.shiro.security" />
+      <recent name="common.aspect" />
+      <recent name="common.plugin" />
+      <recent name="common.utils" />
+      <recent name="common.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dpLiwei-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/dpLiwei-web/src/main/resources/spring" />
+      <recent name="$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/dao/mapper" />
+      <recent name="$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/dao/mapper" />
+      <recent name="$PROJECT_DIR$/dpLiwei-web/src/main/resources/conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.dpLiwei-web">
+    <configuration name="AESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.common.cm.utils.AESUtil" />
+      <module name="dpLiwei-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.common.cm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dpLiwei-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dpLiwei-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.dpLiwei-web" />
+      <item itemvalue="Application.AESUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AESUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5f2b54d-b62f-4921-906a-ae2fa8afd7e0" name="Default Changelist" comment="" />
+      <created>1545045208324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545045208324</updated>
+      <workItem from="1545045211940" duration="7128000" />
+      <workItem from="1545117974769" duration="19571000" />
+      <workItem from="1545184060377" duration="7710000" />
+      <workItem from="1545196068280" duration="11588000" />
+      <workItem from="1545211871466" duration="3857000" />
+      <workItem from="1545268065963" duration="16768000" />
+      <workItem from="1545376718838" duration="999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67621000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="99" y="23" width="1732" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.252071" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49970946" weight="0.29533678" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9000581" weight="0.30984455" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32953367" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002905" side_tool="true" weight="0.2885906" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.13471502" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32953367" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.4991511" visible="true" weight="0.13136095" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5008489" side_tool="true" weight="0.11821086" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dp-Modules/src/main/java/com/liwei/area/controller/SysAreaController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysMenuServiceImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysMenuServiceImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/impl/SysUserManagerImpl.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/manager/impl/SysLogManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/exception/RRExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/SysMenuManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/webapp/statics/js/base/menu/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/SysMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/SysMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" selection-start-line="14" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/impl/SysMenuManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/quartz/service/impl/QuartzJobServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/entity/SysMenuEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/sit/application-env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/pre/application-env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/profiles/prd/application-env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="37" column="70" lean-forward="true" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysUserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/xss/XssFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/dialect/PostgrePageHepler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/plugins/PaginationResultSetHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/plugins/PaginationStatementHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/applicationContext-jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="116" column="66" selection-start-line="116" selection-start-column="66" selection-end-line="116" selection-end-column="66" />
+          <folding>
+            <element signature="n#bean#1;n#beans#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/conf/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/dialect/Dialect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-web/src/main/resources/conf/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="90" lean-forward="true" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/orm/dialect/DialectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/annotation/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="783" column="16" selection-start-line="783" selection-start-column="16" selection-end-line="783" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/entity/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/entity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/entity/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/unbiz/fluent-validator/1.0.6/fluent-validator-1.0.6.jar!/com/baidu/unbiz/fluentvalidator/GenericResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/dao/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/entity/SysUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/cm/constant/SystemConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/SysUserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/manager/impl/SysUserManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dpLiwei-common/src/main/java/com/liwei/common/shiro/dao/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dpLiwei</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
