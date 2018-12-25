@@ -31,14 +31,14 @@ public class SysRoleServiceImpl implements SysRoleService {
 	public Page<SysRoleEntity> listRole(Map<String, Object> params) {
 		Query query = new Query(params);
 		Page<SysRoleEntity> page = new Page<>(query);
-		sysRoleManager.listRole(page, query);
+		sysRoleManager.listRole(page,query);
 		return page;
 	}
 
 	@Override
 	public R saveRole(SysRoleEntity role) {
-		int count = sysRoleManager.saveRole(role);
-		return CommonUtils.msg(count);
+		int i = sysRoleManager.saveRole(role);
+		return CommonUtils.msg(i);
 	}
 
 	@Override

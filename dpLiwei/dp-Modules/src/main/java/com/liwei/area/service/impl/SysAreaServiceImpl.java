@@ -25,13 +25,21 @@ public class SysAreaServiceImpl implements SysAreaService {
 
 	@Autowired
 	private SysAreaManager sysAreaManager;
-	
+
+	@Override
+	public R listAreaByParentCode(Map<String, Object> params) {
+		Query query = new Query(params);
+		List<SysAreaEntity> sysAreaEntities = sysAreaManager.listAreaByParentCode(query);
+		return  CommonUtils.msg(sysAreaEntities);
+	}
+
+
 	@Override
 	public List<SysAreaEntity> listAreaByParentCode(String areaCode) {
 		Query query = new Query();
-		query.put("parentCode", areaCode);
+		query.put("parentCode",areaCode);
 		List<SysAreaEntity> areas = sysAreaManager.listAreaByParentCode(query);
-		for(SysAreaEntity area : areas) {
+		for (SysAreaEntity area : areas) {
 			area.checkParent();
 		}
 		return areas;
@@ -66,11 +74,5 @@ public class SysAreaServiceImpl implements SysAreaService {
 		return CommonUtils.msg(id, count);
 	}
 
-	@Override
-	public R listAreaByParentCode(Map<String, Object> params) {
-		Query query = new Query(params);
-		List<SysAreaEntity> areas = sysAreaManager.listAreaByParentCode(query);
-		return CommonUtils.msg(areas);
-	}
 
 }

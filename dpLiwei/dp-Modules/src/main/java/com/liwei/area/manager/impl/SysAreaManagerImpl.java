@@ -26,7 +26,8 @@ public class SysAreaManagerImpl implements SysAreaManager {
 	
 	@Override
 	public List<SysAreaEntity> listAreaByParentCode(Query query) {
-		return sysAreaMapper.listAreaByParentCode(query);
+		List<SysAreaEntity> sysAreaEntities = sysAreaMapper.listAreaByParentCode(query);
+		return sysAreaEntities;
 	}
 
 	@Override

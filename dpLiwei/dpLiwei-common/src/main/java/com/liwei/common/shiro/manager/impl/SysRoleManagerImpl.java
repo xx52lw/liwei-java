@@ -34,7 +34,7 @@ public class SysRoleManagerImpl implements SysRoleManager {
 
 	@Override
 	public List<SysRoleEntity> listRole(Page<SysRoleEntity> page, Query search) {
-		return sysRoleMapper.listForPage(page, search);
+		return sysRoleMapper.listForPage(page,search);
 	}
 
 	@Override
@@ -70,13 +70,22 @@ public class SysRoleManagerImpl implements SysRoleManager {
 
 	@Override
 	public int updateRoleAuthorization(SysRoleEntity role) {
+//		Long roleId = role.getRoleId();
+//		int count = sysRoleMenuMapper.remove(roleId);
+//		Query query = new Query();
+//		query.put("roleId", roleId);
+//		List<Long> menuId = role.getMenuIdList();
+//		if(menuId.size() > 0) {
+//			query.put("menuIdList", role.getMenuIdList());
+//			count = sysRoleMenuMapper.save(query);
+//		}
 		Long roleId = role.getRoleId();
-		int count = sysRoleMenuMapper.remove(roleId);
+		int count = sysUserRoleMapper.remove(roleId);
 		Query query = new Query();
-		query.put("roleId", roleId);
-		List<Long> menuId = role.getMenuIdList();
-		if(menuId.size() > 0) {
-			query.put("menuIdList", role.getMenuIdList());
+		query.put("roleId",roleId);
+		List<Long> menuIdList = role.getMenuIdList();
+		if (menuIdList.size() > 0) {
+			query.put("menuIdList",role.getMenuIdList());
 			count = sysRoleMenuMapper.save(query);
 		}
 		return count;
