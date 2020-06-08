@@ -32,7 +32,7 @@ public class SysMacroController extends AbstractController {
 	 * 列表
 	 * @return
 	 */
-	@RequestMapping("/list")
+	@RequestMapping(value = "/list")
 	public List<SysMacroEntity> list() {
 		return sysMacroService.listMacro();
 	}
@@ -41,7 +41,7 @@ public class SysMacroController extends AbstractController {
 	 * 树形列表
 	 * @return
 	 */
-	@RequestMapping("/select")
+	@RequestMapping(value = "/select")
 	public List<SysMacroEntity> select() {
 		return sysMacroService.listNotMacro();
 	}
@@ -52,7 +52,7 @@ public class SysMacroController extends AbstractController {
 	 * @return
 	 */
 	@SysLog("新增字典")
-	@RequestMapping("/save")
+	@RequestMapping(value = "/save")
 	public R save(@RequestBody SysMacroEntity macro) {
 		return sysMacroService.saveMacro(macro);
 	}
@@ -62,7 +62,7 @@ public class SysMacroController extends AbstractController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping("/info")
+	@RequestMapping(value = "/info")
 	public R info(@RequestBody Long id) {
 		return sysMacroService.getObjectById(id);
 	}
@@ -73,7 +73,7 @@ public class SysMacroController extends AbstractController {
 	 * @return
 	 */
 	@SysLog("修改字典")
-	@RequestMapping("/update")
+	@RequestMapping(value = "/update")
 	public R update(@RequestBody SysMacroEntity macro) {
 		return sysMacroService.updateMacro(macro);
 	}
@@ -84,7 +84,7 @@ public class SysMacroController extends AbstractController {
 	 * @return
 	 */
 	@SysLog("显示字典")
-	@RequestMapping("/enable")
+	@RequestMapping(value = "/enable")
 	public R updateStateShow(@RequestBody Long id) {
 		SysMacroEntity macro = new SysMacroEntity();
 		macro.setMacroId(id);
@@ -98,7 +98,7 @@ public class SysMacroController extends AbstractController {
 	 * @return
 	 */
 	@SysLog("隐藏字典")
-	@RequestMapping("/disable")
+	@RequestMapping(value = "/disable")
 	public R updateStateHide(@RequestBody Long id) {
 		SysMacroEntity macro = new SysMacroEntity();
 		macro.setMacroId(id);
@@ -112,7 +112,7 @@ public class SysMacroController extends AbstractController {
 	 * @return
 	 */
 	@SysLog("删除字典")
-	@RequestMapping("/remove")
+	@RequestMapping(value = "/remove")
 	public R batchRemove(@RequestBody Long[] id) {
 		return sysMacroService.batchRemove(id);
 	}
@@ -122,7 +122,7 @@ public class SysMacroController extends AbstractController {
 	 * @param value
 	 * @return
 	 */
-	@RequestMapping("/value")
+	@RequestMapping(value = "/value")
 	public List<SysMacroEntity> listMacroValue(@RequestParam String value) {
 		return sysMacroService.listMacroValue(value);
 	}

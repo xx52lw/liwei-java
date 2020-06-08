@@ -1,0 +1,53 @@
+#spring
+#
+#spring.profiles.active=dev
+#
+#  # mybatis
+#mybatis-plus.mapper-locations=classpath:com/dock/lw/code/mapper/xml/*Mapper.xml
+#  # 实体扫描，多个package用逗号或者分号分隔
+#mybatis-plus.type-aliases-package=com.dock.lw.code.mapper
+#mybatis-plus.configuration.map-underscore-to-camel-case=true
+#mybatis-plus.configuration.cache-enabled=false
+#
+#  #不需要拦截的url
+#filter.urls=/captcha,/login,/app/user/getToken,/app/userReport/getByPage
+# 运行环境
+spring:
+  profiles:
+    active: dev
+
+# mybatis
+mybatis-plus:
+  mapper-locations: classpath:com/dock/lwservice/code/mapper/xml/*Mapper.xml
+  type-aliases-package: com.dock.lwservice.code.mapper
+  configuration:
+    cache-enabled: false
+    map-underscore-to-camel-case: true
+
+#不需要拦截的url
+file:
+  urls:
+    - /captcha
+    - /login
+    - /app/user/getToken
+    - /app/userReport/getByPage
+
+
+
+#监控服务的运行情况
+info:
+  head: head
+  body: body
+management:
+  endpoints:
+    web:
+      exposure:
+        #加载所有的端点，默认只加载了info、health
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    #可以关闭指定的端点
+    shutdown:
+      enabled: false
+

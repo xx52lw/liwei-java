@@ -1,0 +1,89 @@
+## 端口
+#server.port=8083
+server:
+  port: 8083
+  servlet:
+    context-path: /lwservice
+  tomcat:
+    uri-encoding: UTF-8
+    min-spare-threads: 25
+    max-threads: 500
+    max-connections: 20000
+##路径
+#server.servlet.context-path=/lw
+
+
+
+##mysql
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.datasource.url=jdbc:mysql://127.0.0.1:3306/dock?useUnicode=true&allowMultiQueries=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=CTT
+#spring.datasource.username=root
+#spring.datasource.password=root
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dock?useUnicode=true&allowMultiQueries=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=CTT
+    username: root
+    password: root
+  # redis
+  redis:
+    database: 1
+    host: 127.0.0.1
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: 6000
+        max-idle: 8
+        min-idle: 0
+
+
+  # spring boot admin
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8082
+
+#
+#
+#
+#spring.redis.database=1
+#spring.redis.host=10.0.37.11
+#spring.redis.port=6379
+#spring.redis.password=
+#spring.redis.lettuce.pool.max-active=8
+#spring.redis.lettuce.pool.max-wait=10ms
+#spring.redis.lettuce.pool.max-idle=8
+#spring.redis.lettuce.pool.min-idle=1
+#
+#xxl.job.admin.addresses=http://127.0.0.1:8087/xxl-job-admin
+#### xxl-job executor address
+#xxl.job.executor.appname=lwServerJob
+#xxl.job.executor.ip=
+#xxl.job.executor.port=9087
+#
+#### xxl-job, access token
+#xxl.job.accessToken=
+#
+#### xxl-job log path
+#xxl.job.executor.logpath=/Users/liwei/Desktop/Java/com
+#### xxl-job log retention days
+#xxl.job.executor.logretentiondays=-1
+
+# xxl-job
+xxl:
+  job:
+    accessToken:
+    admin:
+      addresses: http://127.0.0.1:8087/xxl-job-admin
+    executor:
+      appname: lwservice
+      ip:
+      port: 8001
+      logpath: /data/logs/xxl-job/jobhandler
+      logretentiondays: 30
+
+

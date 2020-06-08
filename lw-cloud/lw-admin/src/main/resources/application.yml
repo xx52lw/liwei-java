@@ -1,0 +1,7 @@
+
+# 运行环境
+spring:
+  application:
+    name: lw-admin
+  profiles:
+    active: dev

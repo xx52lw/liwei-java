@@ -1,0 +1,371 @@
+[2m2020-04-10 14:28:51.472[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46331 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:28:51.478[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:28:53.072[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:28:53.075[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:28:53.110[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:28:53.738[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:28:54.360[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:28:54.387[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:28:54.388[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:28:54.388[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:28:54.530[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:28:54.531[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2740 ms
+[2m2020-04-10 14:28:55.057[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:28:55.835[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:28:55.913[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:28:56.414[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:28:56.663[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:28:56.680[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:28:56.734[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:28:56.927[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:28:56.943[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:28:56.986[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:28:56.990[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 6.632 seconds (JVM running for 7.518)
+[2m2020-04-10 14:28:57.201[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:28:57.245[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:28:57.245[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:28:57.257[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 11 ms
+[2m2020-04-10 14:28:57.304[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:28:57.539[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:28:57.937[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:28:58.081[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 14:33:04.645[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 14:33:04.827[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 14:33:04.840[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-04-10 14:33:09.554[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46451 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:33:09.557[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:33:11.478[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:33:11.481[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:33:11.540[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:33:12.339[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:33:13.429[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:33:13.444[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:33:13.445[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:33:13.446[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:33:13.672[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:33:13.673[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 3887 ms
+[2m2020-04-10 14:33:14.542[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:33:15.754[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:33:15.874[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:33:25.369[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [c.xxl.rpc.remoting.provider.XxlRpcProviderFactory] XxlRpcProviderFactory.java:197 - >>>>>>>>>>> xxl-rpc, provider factory add service success. serviceKey = com.xxl.job.core.biz.ExecutorBiz, serviceBean = class com.xxl.job.core.biz.impl.ExecutorBizImpl
+[2m2020-04-10 14:33:25.370[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.xxl.rpc.util.NetUtil] NetUtil.java:56 - >>>>>>>>>>> xxl-rpc, port[8001] is in use.
+[2m2020-04-10 14:33:25.372[0;39m WARN  [33m[lwservice,,,,][0;39m [main] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobExecutor' defined in class path resource [com/dock/config/XxlJobConfig.class]: Invocation of init method failed; nested exception is com.xxl.rpc.util.XxlRpcException: xxl-rpc provider port[8001] is used.
+[2m2020-04-10 14:33:25.396[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+[2m2020-04-10 14:33:25.416[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2020-04-10 14:33:25.428[0;39m ERROR [33m[lwservice,,,,][0;39m [main] [org.springframework.boot.SpringApplication] SpringApplication.java:826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobExecutor' defined in class path resource [com/dock/config/XxlJobConfig.class]: Invocation of init method failed; nested exception is com.xxl.rpc.util.XxlRpcException: xxl-rpc provider port[8001] is used.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.dock.lwservice.LwServiceApplication.main(LwServiceApplication.java:20)
+Caused by: com.xxl.rpc.util.XxlRpcException: xxl-rpc provider port[8001] is used.
+	at com.xxl.rpc.remoting.provider.XxlRpcProviderFactory.start(XxlRpcProviderFactory.java:117)
+	at com.xxl.job.core.executor.XxlJobExecutor.initRpcProvider(XxlJobExecutor.java:162)
+	at com.xxl.job.core.executor.XxlJobExecutor.start(XxlJobExecutor.java:84)
+	at com.xxl.job.core.executor.impl.XxlJobSpringExecutor.afterPropertiesSet(XxlJobSpringExecutor.java:35)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 16 common frames omitted
+[2m2020-04-10 14:34:36.880[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46486 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:34:36.886[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:34:38.702[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:34:38.705[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:34:38.747[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:34:39.173[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:34:39.683[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:34:39.694[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:34:39.694[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:34:39.695[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:34:39.803[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:34:39.803[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2517 ms
+[2m2020-04-10 14:34:40.384[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:34:41.371[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:34:41.455[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:34:41.964[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:34:42.158[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:34:42.174[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:34:42.228[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:34:42.414[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:34:42.431[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:34:42.478[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:34:42.486[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 6.49 seconds (JVM running for 7.339)
+[2m2020-04-10 14:34:43.001[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:34:43.066[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:34:43.066[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:34:43.075[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+[2m2020-04-10 14:34:43.154[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:34:43.561[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:34:43.739[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:34:44.335[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 14:34:51.390[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:51.439[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"timestamp":1586500491397,"status":404,"error":"Not Found","message":"No message available","path":"/lwservice/webjars/springfox-swagger-ui/css/typography.css"},"headers":{"body":{"timestamp":1586500491397,"status":404,"error":"Not Found","message":"No message available","path":"/lwservice/webjars/springfox-swagger-ui/css/typography.css"},"headers":{},"statusCode":"NOT_FOUND","statusCodeValue":404},"statusCode":"NOT_FOUND","statusCodeValue":404}
+[2m2020-04-10 14:34:51.441[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController': running time = 125835349 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+125835349  100%  error
+
+[2m2020-04-10 14:34:51.503[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-6] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:51.515[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-6] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:51.515[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-6] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 12135673 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+012135673  100%  uiConfiguration
+
+[2m2020-04-10 14:34:51.527[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-7] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:51.531[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-7] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:51.531[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-7] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 4493006 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+004493006  100%  swaggerResources
+
+[2m2020-04-10 14:34:51.712[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-9] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:51.715[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-9] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:51.716[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-9] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 3940064 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+003940064  100%  securityConfiguration
+
+[2m2020-04-10 14:34:56.974[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-11] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:34:56.981[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-11] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:34:56.981[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-11] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 11759711 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+011759711  100%  test
+
+[2m2020-04-10 14:34:59.060[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-13] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:59.061[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-13] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"timestamp":1586500499061,"status":404,"error":"Not Found","message":"No message available","path":"/lwservice/webjars/springfox-swagger-ui/css/typography.css"},"headers":{"body":{"timestamp":1586500499061,"status":404,"error":"Not Found","message":"No message available","path":"/lwservice/webjars/springfox-swagger-ui/css/typography.css"},"headers":{},"statusCode":"NOT_FOUND","statusCodeValue":404},"statusCode":"NOT_FOUND","statusCodeValue":404}
+[2m2020-04-10 14:34:59.062[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-13] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController': running time = 2330140 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+002330140  100%  error
+
+[2m2020-04-10 14:34:59.091[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-14] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:59.091[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-14] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{"body":{"apisSorter":"alpha","defaultModelRendering":"schema","docExpansion":"none","jsonEditor":false,"showRequestHeaders":true,"supportedSubmitMethods":["get","post","put","delete","patch"]},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:59.092[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-14] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 976361 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000976361  100%  uiConfiguration
+
+[2m2020-04-10 14:34:59.099[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-15] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:59.099[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-15] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{"body":[{"location":"/v2/api-docs?group=app","name":"app","swaggerVersion":"2.0"},{"location":"/v2/api-docs?group=manage","name":"manage","swaggerVersion":"2.0"}],"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:59.100[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-15] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 952511 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000952511  100%  swaggerResources
+
+[2m2020-04-10 14:34:59.162[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-17] [com.dock.common.AccessLog] AccessLog.java:53 - request = []
+[2m2020-04-10 14:34:59.163[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-17] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{"body":{"apiKeyName":"api_key","apiKeyVehicle":"header"},"headers":{},"statusCode":"OK","statusCodeValue":200},"statusCode":"OK","statusCodeValue":200}
+[2m2020-04-10 14:34:59.163[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-17] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'springfox.documentation.swagger.web.ApiResourceController': running time = 1289695 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001289695  100%  securityConfiguration
+
+[2m2020-04-10 14:37:15.921[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 14:37:16.079[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 14:37:16.093[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-04-10 14:37:21.694[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46560 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:37:21.700[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:37:24.620[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:37:24.624[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:37:24.672[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:37:25.268[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:37:25.892[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:37:25.903[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:37:25.904[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:37:25.905[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:37:26.021[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:37:26.021[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 3978 ms
+[2m2020-04-10 14:37:26.764[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:37:28.299[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:37:28.390[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:37:29.119[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:37:29.364[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:37:29.388[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:37:29.450[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:37:29.669[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:37:29.686[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:37:29.730[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:37:29.735[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 9.089 seconds (JVM running for 9.999)
+[2m2020-04-10 14:37:30.235[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:37:30.297[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:37:30.297[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:37:30.307[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 10 ms
+[2m2020-04-10 14:37:30.354[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:37:30.808[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:37:31.110[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:37:31.279[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 14:37:39.534[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.ApiInterceptor] ApiInterceptor.java:48 - reqURI = /lwservice/app/userReport/test, reqMethod = POST, token = null
+[2m2020-04-10 14:37:39.650[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:37:39.659[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:37:39.661[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 95496632 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+095496632  100%  test
+
+[2m2020-04-10 14:38:19.752[0;39m WARN  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:93 - Failed to register application as Application(name=spring-boot-application, managementUrl=http://liweideimac.local:8083/lwservice/actuator, healthUrl=http://liweideimac.local:8083/lwservice/actuator/health, serviceUrl=http://liweideimac.local:8083/lwservice) at spring-boot-admin ([http://127.0.0.1:8082/instances]): I/O error on POST request for "http://127.0.0.1:8082/instances": Failed to connect to /127.0.0.1:8082; nested exception is java.net.ConnectException: Failed to connect to /127.0.0.1:8082. Further attempts are logged on DEBUG level
+[2m2020-04-10 14:41:12.491[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 14:41:12.633[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 14:41:12.645[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-04-10 14:41:21.547[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46695 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:41:21.552[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:41:23.119[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:41:23.123[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:41:23.174[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:41:23.852[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:41:24.384[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:41:24.399[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:41:24.400[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:41:24.400[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:41:24.517[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:41:24.518[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2707 ms
+[2m2020-04-10 14:41:25.150[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:41:26.218[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:41:26.302[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:41:26.826[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:41:27.027[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:41:27.047[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:41:27.104[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:41:27.290[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:41:27.306[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:41:27.345[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:41:27.349[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 6.998 seconds (JVM running for 8.1)
+[2m2020-04-10 14:41:27.932[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:41:27.961[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:41:27.962[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:41:27.971[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+[2m2020-04-10 14:41:28.025[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:41:28.357[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:41:28.534[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:41:28.657[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 14:41:35.702[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.ApiInterceptor] ApiInterceptor.java:48 - reqURI = /lwservice/app/userReport/test, reqMethod = POST, token = null
+[2m2020-04-10 14:41:35.818[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:41:35.827[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:41:35.828[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 96637555 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+096637555  100%  test
+
+[2m2020-04-10 14:41:36.799[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.ApiInterceptor] ApiInterceptor.java:48 - reqURI = /lwservice/app/userReport/test, reqMethod = POST, token = null
+[2m2020-04-10 14:41:36.800[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:41:36.800[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:41:36.801[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 771653 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+000771653  100%  test
+
+[2m2020-04-10 14:42:00.380[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 14:42:00.516[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 14:42:00.525[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-04-10 14:44:34.277[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 46796 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:44:34.283[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:44:37.601[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:44:37.605[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:44:37.653[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:44:38.360[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:44:39.149[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:44:39.163[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:44:39.165[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:44:39.166[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:44:39.408[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:44:39.409[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 4689 ms
+[2m2020-04-10 14:44:46.918[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:44:47.880[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:44:47.966[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:44:48.484[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:44:48.681[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:44:48.697[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:44:48.748[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:44:48.924[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:44:48.945[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:44:48.982[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:44:48.987[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 15.835 seconds (JVM running for 16.776)
+[2m2020-04-10 14:44:49.473[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:44:49.556[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:44:49.557[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:44:49.566[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+[2m2020-04-10 14:44:49.612[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:44:50.048[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:44:50.227[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:44:50.347[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 14:44:51.970[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.ApiInterceptor] ApiInterceptor.java:48 - reqURI = /lwservice/app/userReport/test, reqMethod = POST, token = null
+[2m2020-04-10 14:44:52.110[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:44:52.119[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:44:52.120[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-4] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 114869139 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+114869139  100%  test
+
+[2m2020-04-10 14:44:53.068[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.ApiInterceptor] ApiInterceptor.java:48 - reqURI = /lwservice/app/userReport/test, reqMethod = POST, token = null
+[2m2020-04-10 14:44:53.074[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:53 - request = [{"cm":[{"cm":{},"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}],"current":1,"page":{"current":1,"orders":[],"pages":0,"records":[],"searchCount":true,"size":10,"total":0},"size":10}]
+[2m2020-04-10 14:44:53.075[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:55 - response = {"code":200,"data":"123","msg":"操作成功"}
+[2m2020-04-10 14:44:53.076[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-5] [com.dock.common.AccessLog] AccessLog.java:59 - StopWatch 'com.dock.lwservice.code.web.UserReportController': running time = 1188406 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+001188406  100%  test
+
+[2m2020-04-10 14:46:07.474[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 14:46:07.610[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 14:46:07.625[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+[2m2020-04-10 14:56:06.294[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:55 - Starting LwServiceApplication on liweideiMac.local with PID 47115 (/Users/liwei/Desktop/lw-cloud/lw-service/target/classes started by liwei in /Users/liwei/Desktop/lw-cloud)
+[2m2020-04-10 14:56:06.312[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] SpringApplication.java:655 - The following profiles are active: dev
+[2m2020-04-10 14:56:11.232[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-04-10 14:56:11.235[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-04-10 14:56:11.282[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+[2m2020-04-10 14:56:11.945[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2020-04-10 14:56:12.662[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8083 (http)
+[2m2020-04-10 14:56:12.674[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:56:12.675[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2m2020-04-10 14:56:12.676[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[2m2020-04-10 14:56:12.809[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2m2020-04-10 14:56:12.810[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 5879 ms
+[2m2020-04-10 14:56:13.602[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:75 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2m2020-04-10 14:56:15.025[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 14 endpoint(s) beneath base path '/actuator'
+[2m2020-04-10 14:56:15.123[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-04-10 14:56:15.686[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService
+[2m2020-04-10 14:56:15.877[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+[2m2020-04-10 14:56:15.897[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 2 custom documentation plugin(s)
+[2m2020-04-10 14:56:15.957[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:56:16.143[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+[2m2020-04-10 14:56:16.159[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8083"]
+[2m2020-04-10 14:56:16.197[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8083 (http) with context path '/lwservice'
+[2m2020-04-10 14:56:16.201[0;39m INFO  [33m[lwservice,,,,][0;39m [main] [com.dock.lwservice.LwServiceApplication] StartupInfoLogger.java:61 - Started LwServiceApplication in 11.585 seconds (JVM running for 12.556)
+[2m2020-04-10 14:56:16.372[0;39m INFO  [33m[lwservice,,,,][0;39m [registrationTask1] [d.c.b.a.client.registration.ApplicationRegistrator] ApplicationRegistrator.java:84 - Application registered itself as 5795fcedd94b
+[2m2020-04-10 14:56:16.435[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/lwservice]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-04-10 14:56:16.435[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+[2m2020-04-10 14:56:16.445[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+[2m2020-04-10 14:56:16.498[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2m2020-04-10 14:56:16.901[0;39m INFO  [33m[lwservice,,,,][0;39m [http-nio-8083-exec-1] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2m2020-04-10 14:56:17.085[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+[2m2020-04-10 14:56:17.442[0;39m INFO  [33m[lwservice,,,,][0;39m [boundedElastic-1] [io.lettuce.core.KqueueProvider] KqueueProvider.java:66 - Starting with kqueue library
+[2m2020-04-10 15:02:12.665[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService
+[2m2020-04-10 15:02:12.815[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+[2m2020-04-10 15:02:12.829[0;39m INFO  [33m[lwservice,,,,][0;39m [SpringContextShutdownHook] [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.

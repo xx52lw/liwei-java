@@ -1,0 +1,27 @@
+[2m2020-04-10 14:33:25.428[0;39m ERROR [33m[lwservice,,,,][0;39m [main] [org.springframework.boot.SpringApplication] SpringApplication.java:826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobExecutor' defined in class path resource [com/dock/config/XxlJobConfig.class]: Invocation of init method failed; nested exception is com.xxl.rpc.util.XxlRpcException: xxl-rpc provider port[8001] is used.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.dock.lwservice.LwServiceApplication.main(LwServiceApplication.java:20)
+Caused by: com.xxl.rpc.util.XxlRpcException: xxl-rpc provider port[8001] is used.
+	at com.xxl.rpc.remoting.provider.XxlRpcProviderFactory.start(XxlRpcProviderFactory.java:117)
+	at com.xxl.job.core.executor.XxlJobExecutor.initRpcProvider(XxlJobExecutor.java:162)
+	at com.xxl.job.core.executor.XxlJobExecutor.start(XxlJobExecutor.java:84)
+	at com.xxl.job.core.executor.impl.XxlJobSpringExecutor.afterPropertiesSet(XxlJobSpringExecutor.java:35)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 16 common frames omitted
